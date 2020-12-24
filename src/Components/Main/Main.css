@@ -1,0 +1,45 @@
+.container {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    width: 100%;
+  }
+  
+  .front_wallpaper{
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .main_text{
+      color: rgb(218, 205, 205);
+      /* color: rgb(204, 58, 70); */
+      position: absolute;
+      top: 30%;
+      left: 20%;
+  }
+
+  .main_btn{
+    /* font-family: 'Lato', sans-serif; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .main_btn:hover{
+      background-color: white;
+      color: inherit;
+      transition: linear;
+      transition-duration: 500ms;
+  }
+
+  .arrow {
+      margin-left: 10px;
+  }
