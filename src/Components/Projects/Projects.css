@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 3rem;
+    column-gap: 0.5rem;
+    row-gap: 2rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    /* color: black; */
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}

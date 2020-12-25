@@ -1,5 +1,6 @@
 import React from 'react'
 import { projectDetails } from '../../constants/Project'
+import './Projects.css'
 
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -23,21 +24,23 @@ const useStyles = makeStyles({
 const Projects = () => {
     const classes = useStyles();
     return (
-        <div>
+        <div style = {{paddingTop: '20px', background: 'rgb(227, 238, 255)', marginTop: '10px', paddingBottom: '70px'}}>
+            <h1 className = "heading">Projects</h1>
+        <div className = "grid-container">
             {projectDetails.map((value) => (
             <Card className={classes.root}>
             <CardActionArea>
             <CardMedia
                 className={classes.media}
                 image={value.image}
-                title="Contemplative Reptile"
+                title={value.name}
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
                     {value.name}
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    {value.description}
+                    {value.description} ({value.date})
                 </Typography>
             </CardContent>
             </CardActionArea>
@@ -51,6 +54,7 @@ const Projects = () => {
             </CardActions>
         </Card>
         ))}
+      </div>
       </div>
     )
 }

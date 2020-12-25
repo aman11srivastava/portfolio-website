@@ -8,15 +8,26 @@
     width: 100vw;
     height: 100vh;
   }
+
+  .text{
+    color: rgb(218, 205, 205);
+    position: absolute;
+    top: 60%;
+    left: 44%;
+    white-space:nowrap;
+    overflow:hidden;
+
+  }
   
   .main_text{
       color: rgb(218, 205, 205);
+      /* color: rgb(227, 238, 255); */
       position: absolute;
       top: 30%;
       left: 20%;
       white-space:nowrap;
       overflow:hidden;
-      animation:typing 4s steps(55,end) forwards,
+      animation:typing 6s steps(55,end) forwards,
                 blink 1s infinite;
   }
   @keyframes typing {
@@ -30,6 +41,43 @@
     50% {
       border-right:2px solid #222;
     }
+  }
+
+  .facebook{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    white-space:nowrap;
+    overflow:hidden;
+    transform: scale(0.1);
+    cursor: pointer;
+  }
+  .instagram{
+    position: absolute;
+    top: -14.5%;
+    left: 18%;
+    white-space:nowrap;
+    overflow:hidden;
+    transform: scale(0.05);
+    cursor: pointer;
+  }
+  .linkedin{
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    white-space:nowrap;
+    overflow:hidden;
+    transform: scale(0.1);
+    cursor: pointer;
+  }
+  .github{
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    white-space:nowrap;
+    overflow:hidden;
+    transform: scale(0.1);
+    cursor: pointer;
   }
 
   .main_btn{
