@@ -11,10 +11,25 @@
   
   .main_text{
       color: rgb(218, 205, 205);
-      /* color: rgb(204, 58, 70); */
       position: absolute;
       top: 30%;
       left: 20%;
+      white-space:nowrap;
+      overflow:hidden;
+      animation:typing 4s steps(55,end) forwards,
+                blink 1s infinite;
+  }
+  @keyframes typing {
+    0% { width:0% }
+    100% { width:100vw }
+  }
+  @keyframes blink {
+    0%,100% {
+      border-right:2px solid transparent;
+    }
+    50% {
+      border-right:2px solid #222;
+    }
   }
 
   .main_btn{
