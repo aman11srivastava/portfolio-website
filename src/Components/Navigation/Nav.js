@@ -1,11 +1,12 @@
 import React from 'react'
 import { Navbar } from '../../constants/Navbar'
+import './Nav.css'
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className = "navbar">
             {Navbar.map((value) => (
-                <li key = {value.id}>{value.title}</li>
+                <li className = "nav-links" key = {value.id}>{value.title}</li>
             ))}            
         </nav>
     )

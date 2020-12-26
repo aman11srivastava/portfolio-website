@@ -21,7 +21,7 @@
   
   .main_text{
       color: rgb(218, 205, 205);
-      /* color: rgb(227, 238, 255); */
+      /* color: rgb(19, 34, 119); */
       position: absolute;
       top: 30%;
       left: 20%;
@@ -95,6 +95,7 @@
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    transition-duration: 300ms;
   }
   .main_btn:hover{
       background-color: white;

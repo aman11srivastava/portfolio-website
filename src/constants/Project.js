@@ -1,5 +1,4 @@
 import drum from '../images/drum.JPG';
-import  weather  from "../images/weather.JPG";
 import  loginForm  from "../images/loginForm.JPG";
 import  QuizBeee  from "../images/QuizBeee.JPG";
 import  ReactRecipe  from "../images/ReactRecipe.JPG";
@@ -8,7 +7,8 @@ import  threeDots  from "../images/threeDots.JPG";
 import  ticTac  from "../images/tic-tac.JPG";
 import  tindog  from "../images/tindog.JPG";
 import  webChat from "../images/webChat.JPG";
-
+import tailwind from '../images/tailwind.JPG'
+import weather from '../images/weather.JPG'
 
 export const projectDetails = [
     {
@@ -71,7 +71,7 @@ export const projectDetails = [
         date: 'December 2020',
         gitHub: 'https://github.com/aman11srivastava/tailwind-css-recipe-app',
         url: 'https://github.com/aman11srivastava/tailwind-css-recipe-app',
-        image: ''
+        image: tailwind
     },
     {
         id: 7,
@@ -157,7 +157,7 @@ export const projectDetails = [
         id: 15,
         name: 'Three Dots',
         description: 'A simple HTML and CSS based Responsive Website',
-        data: 'July 2020',
+        date: 'July 2020',
         techUsed: ['HTML', 'CSS'],
         github: 'https://github.com/aman11srivastava/Laptop-Website',
         url: 'https://aman11srivastava.github.io/Laptop-Website/',
