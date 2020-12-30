@@ -51,6 +51,11 @@
     overflow:hidden;
     transform: scale(0.1);
     cursor: pointer;
+    transition: ease 200ms;
+  }
+  .facebook:hover{
+    transform: scale(0.129);
+    transition: ease 200ms;
   }
   .instagram{
     position: absolute;
@@ -60,6 +65,11 @@
     overflow:hidden;
     transform: scale(0.05);
     cursor: pointer;
+    transition: ease 200ms;
+  }
+  .instagram:hover{
+    transform: scale(0.07);
+    transition: ease 200ms;
   }
   .linkedin{
     position: absolute;
@@ -69,6 +79,11 @@
     overflow:hidden;
     transform: scale(0.1);
     cursor: pointer;
+    transition: ease 200ms;
+  }
+  .linkedin:hover{
+    transform: scale(0.129);
+    transition: ease 200ms;
   }
   .github{
     position: absolute;
@@ -78,6 +93,12 @@
     overflow:hidden;
     transform: scale(0.1);
     cursor: pointer;
+    transition: ease 200ms;
+    background-color: rgb(240, 220, 220);
+  }
+  .github:hover{
+    transform: scale(0.129);
+    transition: ease 200ms;
   }
 
   .main_btn{

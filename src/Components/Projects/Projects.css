@@ -15,3 +15,23 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
+
+
+.read-more-section{
+    height: 650px;
+    overflow: hidden;
+    display: block;
+}
+
+.icon{
+    transform: scale(2);
+    margin-left: 50vw;
+    margin-top: 3rem;
+    color: black;
+    transition: linear 500ms;
+}
+.icon:hover{
+    transform: scale(3);
+    color: grey;
+    transition: linear 200ms;
+}
