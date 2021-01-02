@@ -1,0 +1,23 @@
+.experience-section{
+    background-color: rgb(255, 244, 184);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.experience-grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 1.3rem;
+}
+
+.exp-description{
+    height: 28vh;
+    text-align: justify;
+}
+
+.exp-description-2{
+    height: 10vh;
+    text-align: justify;
+}
